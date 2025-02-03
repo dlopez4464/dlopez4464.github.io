@@ -1,0 +1,86 @@
+/*Estilo de fondo y Texto*/
+body {
+    background-color: #ffeded; /* Fondo suave */
+    color: #015464; /* Color de texto contrastante */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+/* Estilo del Título */
+header h1 {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 48px;
+    text-align: center;
+    color: #015464;
+    margin-top: 0;
+}
+/* Estilo del Párrafo */
+.descripcion p {
+    font-size: 16px;
+    text-align: justify;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+/* Estilo de la Tabla */
+.top-favoritos table {
+    width: 60%;
+    margin: 0 auto 20px;
+    border-collapse: collapse;
+}
+.top-favoritos th, .top-favoritos td {
+    border: 2px solid #015464;
+    padding: 10px;
+    text-align: center;
+}
+.top-favoritos tr:nth-child(even) {
+    background-color: #d9ddff; /* Color alternado para filas pares */
+}
+/* Estilo de la Imagen */
+.imagen-hobby img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* Estilo del Formulario */
+.formulario-contacto h2 {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 24px;
+    text-align: center;
+    color: #015464;
+    margin-bottom: 20px;
+}
+.formulario-contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #015464;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.formulario-contacto label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #015464;
+}
+.formulario-contacto input, .formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #015464;
+    border-radius: 5px;
+}
+.formulario-contacto input[type="submit"] {
+    background-color: #015464;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.formulario-contacto input[type="submit"]:hover {
+    background-color: #013f4a;
+}
